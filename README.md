@@ -1,5 +1,5 @@
-## Terragrunt Configuration for multiple environments in Terraform and AWS
-Terragrunt enhances the Terraform workflow, making it simpler to handle complex infrastructure setups across various environments.
+## Terragrunt Configuration for multiple environments in Terraform and AWS.
+Terragrunt enhances Terraform workflow, making it simpler to handle complex infrastructure setups across various environments.
 
 ## Install Terragrunt
 Install [Terragrunt](https://terragrunt.gruntwork.io/docs/getting-started/install/)
@@ -10,7 +10,7 @@ git clone https://github.com/TomiwaAribisala-git/terragrunt_terraform_workflow.g
 ```
 
 ## Go to the project directory and execute terragrunt commands per environment.
-    - Development Environment
+- Development Environment
     ```
     cd modules/live/dev/ec2-instance
     ```
@@ -21,7 +21,7 @@ git clone https://github.com/TomiwaAribisala-git/terragrunt_terraform_workflow.g
     terragrunt apply
     ```
 
-    - Staging Environment
+- Staging Environment
     ```
     cd modules/live/stag/ec2-instance
     ```
@@ -32,7 +32,7 @@ git clone https://github.com/TomiwaAribisala-git/terragrunt_terraform_workflow.g
     terragrunt apply
     ```
 
-    - Production Environment
+- Production Environment
     ```
     cd modules/live/prod/ec2-instance
     ```
